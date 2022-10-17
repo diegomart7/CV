@@ -4,7 +4,6 @@ body {
   text-align: center;
   background-color: #256D85;
 }
-
 a{
     color:#DFF6FF ;
 }
@@ -36,7 +35,7 @@ a{
   top:1px;
   right:10px;
   width: 70%;
-  
+
 
 }
 
@@ -182,3 +181,4 @@ ul {
 .workexpheader {
   text-align: left;
 }
+
