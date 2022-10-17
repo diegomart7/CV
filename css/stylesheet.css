@@ -4,6 +4,7 @@ body {
   text-align: center;
   background-color: #256D85;
 }
+
 a{
     color:#DFF6FF ;
 }
@@ -34,14 +35,16 @@ a{
   position: fixed;
   top:1px;
   right:10px;
-  width: 30%;
+  width: 70%;
+  
 
 }
 
 .buttonweb {
+  align-content: flex-end;
   border-radius: 15px;
-  height: 33px;
-  width: 160px;
+  height:100%;
+  width: 30%;
   background-color:#06283D ;
   border-style: solid;
   border-color: white;
@@ -103,16 +106,20 @@ h2, h3 {
 
 .skill-row {
   width: 50%;
-  margin: 70px auto 100px auto;
+  margin: 80px auto 80px auto;
 }
 
 .skillheader {
-  position: relative;
-  right: 95px;
+  margin: auto auto 20px auto;
+  width: 40%;
+  text-align: left;
+
 }
 
 .skillrowtext {
-  width: 90%;
+  width: 50%;
+  text-align: left;
+  margin: auto auto auto 30%;
 }
 
 .buttonweb {
@@ -125,15 +132,22 @@ h2, h3 {
 }
 
 .skillrowimageleft {
-  width: 18%;
+  width: 20%;
   float: left;
   margin-right: 30px;
   border-radius: 50%;
 }
 
+.skillrowimageright {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+  border-radius: 50%;
+}
+
 .language-row {
   width: 50%;
-  margin: 70px auto 100px auto;
+  margin: 70px auto auto auto;
 }
 
 .languageimgleft {
@@ -141,7 +155,7 @@ h2, h3 {
   border-radius: 50%;
   float: left;
   position: relative;
-  bottom: 80px;
+  bottom: 110px;
 }
 
 .languageimgright {
@@ -149,11 +163,11 @@ h2, h3 {
   border-radius: 50%;
   float: right;
   position: relative;
-  bottom: 80px;
+  bottom: 110px;
 }
 
 .enghlishandspanish {
-  margin: 80px auto 30px auto;
+  margin: auto;
 }
 
 li {
