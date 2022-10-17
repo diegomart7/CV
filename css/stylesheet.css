@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  background-color: #256D85;
+}
+a{
+    color:#DFF6FF ;
+}
+.menulink {
+    color:#DFF6FF ;
+    text-decoration: none;
+
+}
+.top-container {
+  background-color: #256D85;
+  padding: 100px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #06283D;
+  color: #DFF6FF;
+}
+
+.bottom-container {
+  background-color:#256D85;
+  color: #DFF6FF;
+
+}
+
+.navmenu {
+  color: #DFF6FF;
+  position: fixed;
+  top:1px;
+  right:10px;
+
+}
+
+.buttonweb {
+  border-radius: 15px;
+  height: 33px;
+  width: 160px;
+  background-color:#06283D ;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+}
+
+.authoimg {
+  border-radius: 50%;
+  margin: 40px auto 40px auto;
+}
+
+.octopus {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  width: 300px;
+}
+
+.cloud {
+  position: absolute;
+  right: 330px;
+  top: 130px;
+  width: 310px;
+}
+
+.bolt {
+  position: absolute;
+  right: 350px;
+  top: 300px;
+  width: 200px;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted;
+  border-width: 10px;
+  border-top-style: none;
+  margin: 40px auto 40px auto;
+}
+
+.mainHeader{
+  color: #DFF6FF;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Anton', sans-serif;
+  font-size: 5.625rem;
+}
+
+h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills {
+  margin: 40px auto 40px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 70px auto 100px auto;
+}
+
+.skillheader {
+  position: relative;
+  right: 95px;
+}
+
+.skillrowtext {
+  width: 90%;
+}
+
+.buttonweb {
+  margin: 20px auto 20px auto;
+}
+
+.authorimgtext {
+  width: 15%;
+  margin: 20px auto;
+}
+
+.skillrowimageleft {
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.language-row {
+  width: 50%;
+  margin: 70px auto 100px auto;
+}
+
+.languageimgleft {
+  width: 10%;
+  border-radius: 50%;
+  float: left;
+  position: relative;
+  bottom: 80px;
+}
+
+.languageimgright {
+  width: 10%;
+  border-radius: 50%;
+  float: right;
+  position: relative;
+  bottom: 80px;
+}
+
+.enghlishandspanish {
+  margin: 80px auto 30px auto;
+}
+
+li {
+  margin: 18px auto;
+  text-align: left;
+}
+
+ul {
+  margin: 5px auto 5px 200px;
+}
+
+.workexpheader {
+  text-align: left;
+}
