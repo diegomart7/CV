@@ -24,6 +24,11 @@
   font-family: "Montserrat";
 }
 
+.icon-white{
+  color: white;
+  font-size: 8rem;
+  padding: 5%;
+}
 .logo-image{
   width: 5%;
   margin-left: 4%;
