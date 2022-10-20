@@ -3,71 +3,142 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Diego Martinez</title>
+  <title>Diego's Personal Space</title>
+
+  <!--CSS -->
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <!--Favicon-->
+    <link rel="icon" href="favicon.ico">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/58033850f9.js" crossorigin="anonymous"></script>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Merriweather&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
+
+
 <body>
-  <div class="top-container">
-    <img class="octopus" src="images/dmlLogo.png" alt="cloudimg">
-    <img class="cloud" src="images/greyCloud.png" alt="cloudimg">
-    <h1 class="mainHeader">I'm Diego</h1>
-    <h3 class="mainHeader">a Tech Writer...</h3>
-    <img class="bolt" src="images/bolt.png" alt="cloudimg">
-    <hr class="mainHeader">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="authoimg" src="https://media-exp1.licdn.com/dms/image/C4D03AQH_u6Kdu-bIIg/profile-displayphoto-shrink_200_200/0/1611065108917?e=1671062400&v=beta&t=qABebKBSGvPr1qmOtP9VEF6c6nlG6Jhdb3q2SIuuizU" alt="">
-      <h2>Hi!</h2>
-      <p class="authorimgtext">I'm Diego a Technical Writer learning constantly and upgrading my skills in Frond End technologies.</p>
+
+  <section class="section1">
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <img class ="logo-image" src="img/dmlLogo.png" alt="">
+      <a class = "navbar-brand ref="">mySpace</a>
+      <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://diegomart7.github.io/CV/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About me
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark bg-transparent border-light" style="--bs-border-opacity: .3;">
+                <li><a class="dropdown-item" href="https://diegomart7.github.io/CV/workExp.html">Work Experience</a></li>
+                <li><a class="dropdown-item" href="https://diegomart7.github.io/CV/education.html>Education</a></li>
+                <li><a class="dropdown-item" href="https://diegomart7.github.io/CV/skills.html">Skills</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:diegomart7@email.com">Contact</a>
+            </li>
+        </div>
+    </nav>
+
+    <!--Heading of the Page-->
+
+    <div class="section1 row ">
+      <div class="col-md-6 left-side-intro">
+        <div class="title-headers">
+          <h1 class="headerTitle">Diego Martinez</h1>
+          <h4 class="headerTitle"> Tech Writer & Front End Developer</h4>
+        </div>
+      </div>
+      <div class="col-md-6 right-side-intro">
+        <img class="author-image" src="img\author.jfif" alt="">
+      </div>
     </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills</h2>
-      <div class="skill-row">
-        <img class="skillrowimageleft" src="http://p92.hu/binaries/content/gallery/p92website/technologies/htmlcssjs-overview.png" alt="">
-        <h3 class="skillheader">Front End</h3>
-        <p class="skillrowtext">HTML provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript. CSS is used to control presentation, formatting, and layout. JavaScript is used to control the
-          behavior of different</p>
+  </section>
+
+
+
+  <section class="section2">
+    <hr class = "bluehr">
+    <div class="section-top row">
+      <div class="col-md-4 features-div">
+        <div class="feature">
+          <i class="fa-solid fa-computer feature-icon"></i>
+          <h3 class="feature-header">Front End Developer</h3>
+          <p class="feature-p">Familiarity and experience with computer software, and computer systems.</p>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="skillrowimageright" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf7Irk7DGG9qASRv7PYIWvg5IHYyBpNxOnTg&usqp=CAU" alt="">
-        <h3 class="skillheader">Technical Writing</h3>
-        <p class="skillrowtext">A Technical Writer is a professional responsible for creating documentation that clarifies the product's features and benefits. They work on requirements like content strategy or scoping out new products to ensure all
-          necessary information has been included for users to understand what they're reading quickly.</p>
+      <div class="col-md-4">
+        <div class="feature">
+          <i class="fa-sharp fa-solid fa-pen-to-square feature-icon "></i>
+          <h3 class="feature-header">Technical Writer</h3>
+          <p class="feature-p">Professional information communicator whose task is to transfer information between two or more parties.</p>
+        </div>
       </div>
+      <div class="col-md-4">
+        <div class="feature">
+          <i class="fa-solid fa-bullseye feature-icon"></i>
+          <h3 class="feature-header">Business Focus</h3>
+          <p class="feature-p">Having an absolute laser-focus on your very specific goals.</p>
+        </div>
+      </div>
+</div>
+  <hr class = "bluehr">
+  </section>
+
+  <section class="section3">
+  <h3 class="mylanguages">My Languages</h3>
+  <div class="row">
+      <div class="english-box col-md-4 language-box">
+      <h4 class="languageh4">English</h4>
+      <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Square_Flag_of_the_United_Kingdom.svg/300px-Square_Flag_of_the_United_Kingdom.svg.png?20150504071239" alt="">
+    </div>
+    <div class= "spanish-box col-md-4 language-box">
+      <h4 class="languageh4">Spanish</h4>
+      <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Spanish_Presidential_Flag.svg/600px-Spanish_Presidential_Flag.svg.png" alt="">
+        </div>
+        <div class= "polish-box col-md-4 language-box">
+          <h4 class="languageh4" >Polish</h4>
+          <img class="flag" src="https://cdn-icons-png.flaticon.com/512/299/299737.png?w=360" alt="">
+            </div>
     </div>
 
-    <hr>
-    <div class="language">
-      <h2>My Languages</h2>
-      <div class="language-row">
-        <h4 class="enghlishandspanish">English</h4>
-        <h4>Spanish</h4>
-        <h4>Catalan</h4>
-        <img class="languageimgleft" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Square_Flag_of_the_United_Kingdom.svg/300px-Square_Flag_of_the_United_Kingdom.svg.png?20150504071239" alt="" />
-        <img class="languageimgright" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Spanish_Presidential_Flag.svg/600px-Spanish_Presidential_Flag.svg.png" alt="" />
-        <br><br>
-      </div>
-    </div>
-  </div>
-  <div class="navmenu">
-    <button class="buttonweb"><a class="menulink" href="workExp.html">WORK EXPERIENCE</a></button>
-    <button class="buttonweb"><a class="menulink" href="mailto:diegomart7@email.com">CONTACT ME</a></button>
-</div>
-  <div class="bottom-container">
-    <h2>Find more About Me</h2>
-    <p>You can directly email me (by clicking "Contact Me") or use the links at the bottom to connect via LikedIn for example or check my GitHub</p>
-    <a href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba">LinkedIn</a>
-    <a href="https://github.com/diegomart7">GitHub</a>
-    <a  href="https://codepen.io/Diegomart">CodePen</a>
-    <p>© Diego Martinez.</p>
-  </div>
+
+
+<hr class = "whitehr">
+<br>
+  </section>
+
+  <footer class="white-section" id="footer">
+    <i class="fa-brands fa-github footer-icon footertext"></i>
+    <i class="fa-brands fa-codepen footer-icon footertext"></i>
+    <i class="fa-brands fa-linkedin footer-icon footertext"></i>
+    <i class="fa-solid fa-envelope footer-icon footertext"></i>
+    <h5 class="footertext">Thank you for visiting</h5>
+    <h6 class="footertext">Ⓒ Diego Martinez</h6>
+
+  </footer>
+
+
+</body>
 
 </html>
