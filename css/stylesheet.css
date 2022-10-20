@@ -4,6 +4,10 @@
 
 /* Navigation Bar */
 
+body{
+  background-color:#22577E ;
+}
+
 .navbar {
   padding: 0 ;
 }
@@ -26,8 +30,9 @@
 
 .icon-white{
   color: white;
-  font-size: 10rem;
+  font-size: 8rem;
   padding: 5%;
+
 }
 .logo-image{
   width: 5%;
@@ -71,6 +76,7 @@
 /*Sections*/
 .section1 {
   background-color: #22577E;
+  width: 100%;
 }
 .section3 {
   background-color: #22577E;
@@ -95,6 +101,14 @@ border-top-style: none;
 margin: 40px auto 40px auto;
 
 }
+ .section-top{
+   padding: 2%;
+
+ }
+
+ .section-top{
+   width: 100%;
+ }
 
 .whitehr{
 color:  white;
@@ -107,11 +121,11 @@ margin: 40px auto 40px auto;
 }
 .feature{
   text-align: center;
-  padding: 8%;
+  padding: 5%;
 }
 .feature-icon{
   font-size: 8rem;
-  padding: 5%;
+  padding: 3%;
   color: #22577E;
 }
 
@@ -127,7 +141,6 @@ margin: auto;
 font-family: "Montserrat";
 
 }
-
 /*My Work page*/
 .imagecompany {
   width: 25%;
@@ -140,7 +153,7 @@ font-family: "Montserrat";
 }
 
 .workexp {
-  padding: 5%;
+  width: 100%
 }
 
 .workexpul {
@@ -171,12 +184,16 @@ font-family: "Montserrat";
 
 }
 
+
 .language-box{
 
   color: white;
   text-align: center;
-  padding-top: 2%;
-  padding-bottom: 3%;
+}
+
+.polish-language{
+
+padding-right: 0;
 }
 
 .mylanguages{
@@ -188,7 +205,9 @@ font-family: "Montserrat";
 
   padding-top: 1%;
   padding-bottom: 2%;
+
 }
+
 #footer{
   padding: 1%;
    text-align: center;
