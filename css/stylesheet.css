@@ -1,0 +1,198 @@
+/*FONTS   font-family: 'Montserrat Alternates', sans-serif;
+          font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 ;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+
+}
+
+.nav-link {
+  font-family: "Montserrat";
+}
+
+.logo-image{
+  width: 5%;
+  margin-left: 4%;
+}
+
+/*First Section*/
+.left-side-intro {
+  text-align: center;
+  padding: 8%;
+}
+
+.right-side-intro{
+  padding: 3% 7%;
+  text-align: center;
+
+}
+.author-image {
+  width: 60%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgba(255, 255, 255, 0.7);;
+
+}
+
+.title-headers{
+  padding: 10%;
+
+}
+
+.headerTitle{
+
+  font-family: "Montserrat";
+  font-weight:bolder;
+  font-size: 3.2rem;
+  text-align: left;
+  color: white;
+}
+
+/*Sections*/
+.section1 {
+  background-color: #22577E;
+}
+.section3 {
+  background-color: #22577E;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+.workexpsection1 {
+  color: white;
+  background-color: #22577E;
+}
+/*Feautures Section2*/
+.bluehr{
+color: #22577E;
+width: 7%;
+border-style: dotted;
+border-width: 10px;
+border-top-style: none;
+margin: 40px auto 40px auto;
+
+}
+
+.whitehr{
+color:  white;
+width: 7%;
+border-style: dotted;
+border-width: 10px;
+border-top-style: none;
+margin: 40px auto 40px auto;
+
+}
+.feature{
+  text-align: center;
+  padding: 8%;
+}
+.feature-icon{
+  font-size: 8rem;
+  padding: 5%;
+  color: #22577E;
+}
+
+.feature-header{
+  padding: 2%;
+  font-family: "Montserrat";
+  font-weight:bolder;
+}
+
+.feature-p {
+width: 50%;
+margin: auto;
+font-family: "Montserrat";
+
+}
+
+/*My Work page*/
+.imagecompany {
+  width: 25%;
+  border-radius: 50%;
+  margin: 12% 35%;
+}
+
+.tasksside {
+  padding: 4%;
+}
+
+.workexp {
+  padding: 5%;
+}
+
+.workexpul {
+
+  padding: 6%;
+}
+
+.workexptitle{
+  font-size: 6rem;
+  padding: 2%;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+
+
+.mylanguages {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+
+}
+
+.flag {
+  border-radius: 50%;
+  width: 18%;
+
+}
+
+.language-box{
+
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.mylanguages{
+
+  padding-top: 2%;
+}
+
+.languageh4{
+
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+#footer{
+  padding: 1%;
+   text-align: center;
+   margin: auto;
+}
+
+.footer-icon{
+  font-size: 2rem;
+  margin-left: 2.5%;
+  margin-right:2.55%;
+  padding-bottom: 2%;
+}
