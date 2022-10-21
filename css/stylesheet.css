@@ -101,6 +101,12 @@ border-top-style: none;
 margin: 40px auto 40px auto;
 
 }
+
+.technology-description{
+  width: 75%;
+  margin: auto;
+  font-family: "Montserrat";
+}
  .section-top{
    padding: 2%;
 
