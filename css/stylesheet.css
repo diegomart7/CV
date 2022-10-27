@@ -1,9 +1,3 @@
-/*FONTS   font-family: 'Montserrat Alternates', sans-serif;
-          font-family: 'Ubuntu', sans-serif;
-*/
-
-/* Navigation Bar */
-
 body{
   background-color:#22577E ;
 }
@@ -43,6 +37,14 @@ body{
 .logo-image{
   width: 5%;
   margin-left: 4%;
+}
+
+.workexpul {
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding: 2%;
+
 }
 
 .viewwork {
@@ -167,7 +169,7 @@ font-family: "Montserrat";
 }
 /*My Work page*/
 .imagecompany {
-  width: 25%;
+  width: 200px;
   border-radius: 50%;
   margin: 12% 35%;
 }
