@@ -1,0 +1,155 @@
+
+/*Goolge fonts
+
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+*/
+
+body {
+
+  background-image: url(https://media.istockphoto.com/photos/green-felt-surface-with-light-copy-space-in-center-picture-id672546436?k=20&m=672546436&s=612x612&w=0&h=4KKZA0aVkz2VJKBcTJM9TAGwa7r618OnB1nN8sFZ6mc=);
+  background-size: contain;
+}
+
+h2{
+  padding: 2.5%;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bolder;
+  color: rgba(227, 205, 0, 1);
+  font-size: 2.6rem;
+}
+
+p{
+  padding: 4%;
+}
+
+.titleApp {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 6rem;
+  margin-top: 1%;
+  color: rgba(227, 205, 0, 1);
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+  text-shadow: 4px 4px rgba(33, 33, 33, 0.6);
+}
+
+
+.playButton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1% 2%;
+  margin-top: 1%;
+  border-color: white;
+  border-style: solid;
+  border-width: 4px;
+}
+
+.allarea{
+  padding: 1%;
+}
+
+
+.listOfPlayers {
+
+  text-align: center;
+  padding: 5% 0;
+  margin: auto;
+  width: 30%;
+
+
+}
+.playArea {
+  text-align: center;
+  width: 52%;
+  margin: auto;
+  background-color: rgba(33, 33, 33, 0.7);
+  border-radius: 5%;
+  padding-bottom: 3%;
+}
+
+ul{
+  list-style: none;
+  padding: 3%;
+}
+
+.winner {
+
+  color: rgba(227, 205, 0, 1);
+  border-style: solid;
+  border-width: 10px;
+  border-color:rgba(227, 205, 0, 1);
+  margin: auto;
+  width: 70%;
+  font-family: 'Lobster', cursive;
+  font-weight: bold;
+padding: auto;
+}
+
+.winnerdiv{
+
+  margin: 4% auto;
+}
+
+.instructions{
+  font-size: 0.8rem;
+  background-color: rgba(65, 65, 65, 0.25);
+  width: 55%;
+  text-align: center;
+  margin: auto;
+  color: rgba(227, 205, 0, 1);
+}
+.instructionsdiv{
+  margin: 4% auto;
+}
+
+#playerInput {
+
+  width: 66%;
+  font-size: 0.8rem;
+  color: rgba(227, 205, 0, 1);
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+
+}
+#addButton{
+  margin: 7% auto;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  color: rgba(227, 205, 0, 1);
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  margin-top: 5%;
+  font-size:1.5rem;
+
+}
+
+.firstline{
+  width: 80%;
+  margin: 3% auto 3% auto;
+}
+
+.secondline{
+  width: 80%;
+  margin: 3% auto 3% auto;
+}
+.thirdline{
+  width: 80%;
+  margin:3% auto 3% auto;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}

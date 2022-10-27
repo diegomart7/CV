@@ -1,0 +1,270 @@
+/*FONTS   font-family: 'Montserrat Alternates', sans-serif;
+          font-family: 'Ubuntu', sans-serif;
+*/
+
+/* Navigation Bar */
+
+body{
+  background-color:#22577E ;
+}
+
+.navbar {
+  padding: 0 ;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+
+}
+
+.nav-link {
+  font-family: "Montserrat";
+}
+
+.hworkshop{
+
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.icon-white{
+  color: white;
+  font-size: 8rem;
+  padding: 5%;
+
+}
+.logo-image{
+  width: 5%;
+  margin-left: 4%;
+}
+
+.viewwork {
+  background-color: #22577E;
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1% auto 1% auto;
+  padding: 10px;
+  border-style: solid;
+  border-width: 3px;
+}
+/*First Section*/
+.left-side-intro {
+  text-align: center;
+  padding: 8%;
+}
+
+.right-side-intro{
+  padding: 3% 7%;
+  text-align: center;
+
+}
+.author-image {
+  width: 60%;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 20px;
+  border-color: rgba(255, 255, 255, 0.7);;
+
+}
+
+.title-headers{
+  padding: 10%;
+
+}
+
+.headerTitle{
+
+  font-family: "Montserrat";
+  font-weight:bolder;
+  font-size: 3.2rem;
+  text-align: left;
+  color: white;
+
+}
+
+/*Sections*/
+.section1 {
+  background-color: #22577E;
+  width: 100%;
+}
+.section3 {
+  background-color: #22577E;
+  width: 100%;
+}
+
+.white-section {
+  background-color: white;
+  color: black;
+}
+
+.workexpsection1 {
+  color: white;
+  background-color: #22577E;
+}
+/*Feautures Section2*/
+.bluehr{
+color: #22577E;
+width: 7%;
+border-style: dotted;
+border-width: 10px;
+border-top-style: none;
+margin: 40px auto 40px auto;
+
+}
+ .section-top{
+   padding: 2%;
+
+ }
+
+ .section-top{
+   width: 100%;
+ }
+
+.whitehr{
+color:  white;
+width: 7%;
+border-style: dotted;
+border-width: 10px;
+border-top-style: none;
+margin: 40px auto 40px auto;
+}
+
+.feature{
+  text-align: center;
+  padding: 5%;
+}
+.feature-icon{
+  font-size: 8rem;
+  padding: 3%;
+  color: #22577E;
+}
+
+.feature-header{
+  padding: 2%;
+  font-family: "Montserrat";
+  font-weight:bolder;
+}
+
+.feature-p {
+width: 50%;
+margin: auto;
+font-family: "Montserrat";
+
+}
+
+.technology-description{
+  width: 75%;
+  margin: auto;
+  font-family: "Montserrat";
+}
+/*My Work page*/
+.imagecompany {
+  width: 25%;
+  border-radius: 50%;
+  margin: 12% 35%;
+}
+
+.workexp {
+  width: 100%
+}
+
+.workexptitle{
+  font-size: 6rem;
+  padding: 3%;
+  text-align: center;
+  font-family: "Montserrat";
+  text-shadow: 5px 5px rgba(33, 33, 33, 0.6);
+
+}
+
+.apppar{
+display: block;
+margin: 5% auto;
+width: 50%;
+font-size: 1.5rem;
+}
+
+.tasksside {
+
+  text-align: center;
+}
+.mylanguages {
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bolder;
+  color: white;
+  font-size: 2.2rem;
+
+}
+
+.flag {
+  border-radius: 50%;
+  width: 18%;
+
+}
+
+
+.language-box{
+
+  color: white;
+  text-align: center;
+}
+
+.polish-language{
+
+padding-right: 0;
+}
+
+.mylanguages{
+
+  padding-top: 2%;
+}
+
+.languageh4{
+
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-weight: bold;
+  font-size: 1.1rem;
+
+}
+
+#footer{
+  padding: 1%;
+   text-align: center;
+   margin: auto;
+}
+
+.footer-icon{
+  font-size: 2rem;
+  margin-left: 2.5%;
+  margin-right:2.55%;
+  padding-bottom: 2%;
+}
+
+.workimage{
+  width: 100%;
+  padding: 10%;
+
+}
+
+
+.workshopimage {
+width: 500px;
+display: block;
+margin: 4% auto;
+border-radius: 13%;
+box-shadow: 10px 10px 5px #ccc;
+     -moz-box-shadow: 10px 10px 5px #ccc;
+     -webkit-box-shadow: 10px 10px 5px #ccc;
+     -khtml-box-shadow: 10px 10px 5px #ccc;
+
+}
