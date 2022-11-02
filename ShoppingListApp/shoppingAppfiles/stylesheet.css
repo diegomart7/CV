@@ -1,0 +1,20 @@
+body{
+         background: url("img/fruits.JPG") no-repeat fixed;
+         -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: cover;
+         font-family:Lobster;
+}
+
+li{
+    font-size: 20px;
+    margin:20px;
+}
+
+#saveimg{
+
+  width:35px;
+  height: 35px;
+
+}

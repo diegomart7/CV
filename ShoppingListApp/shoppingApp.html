@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppListApp</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="shoppingList2.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+<body class="bg-light" style="background-image:url('https://wallpapercave.com/wp/wp7400273.jpg'); font-family:Lobster;">
+    <div>
+<br><br><br>
+    <div class="container ">
+        <br> <br>
+        <section class="row">
+
+
+            <div class="col-1 col-md-3"></div>
+
+            <div class="col-10 col-md-6 text-center  rounded">
+                <div id = "primero" class= "rounded">
+                    <h2 class="text-light bg-dark rounded-pill border border-5 border-dark " style = "padding:8px;">Shopping   List   Creator</h2><br><br>
+                    <div id="userinteract" class=" bg-dark d-flex justify-content-around" style=" border-radius:0.5cm; padding:15px;"><br>
+
+                        <input type= "text"  id = "groceries" placeholder="  Write items..." class="text-light border border-5 border-dark" style = "padding:6px; background-color:black; border-radius:0.3cm;">
+                        <button id = "add" type="submit" class= "text-light btn btn-danger rounded-pill  border border-3 border-dark">  Add  </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-1 col-md-3"></div>
+        </section>
+        <br><br>
+
+                <section class="row">
+                    <div class="col-1 col-md-4"></div>
+                    <div class="col-10 col-md-4 text-center listArea">
+
+                        <div id="listArea" class="bg-dark text-light" style="border-radius: 1cm;">
+                            <br>
+
+                                <h3 class="text-light">Shopping List</h4><br><br>
+                                <ul id = "theList" class="bg-dark">
+
+                                </ul>
+                                <br>
+                        </div>
+                    </div>
+                    <div class="col-1 col-md-4"></div>
+                </section>
+                <br>
+
+            </div>
+    </div>
+
+    <script src = "shoppingAppfiles/shoppingList.js"></script>
+
+</body>
+</html>
