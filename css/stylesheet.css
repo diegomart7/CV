@@ -63,7 +63,7 @@ body{
 
 }
 
-.viewwork {
+  .viewwork {
   background-color: black;
   color: #FF8C32;
   font-family: "Ubuntu";
@@ -72,14 +72,10 @@ body{
   margin: 1% auto 1% auto;
   padding: 10px;
   border-style: none;
-  box-shadow: 10px 10px 5px #111;
-       -moz-box-shadow: 10px 10px 5px #111;
-       -webkit-box-shadow: 10px 10px 5px #111;
-       -khtml-box-shadow: 10px 10px 5px #111;
-       border-style: solid;
-       border-width: 5px;
-       border-color: #FF8C32;
+  -webkit-box-shadow: 0 0 45px  #FF8C32;
+          box-shadow: 0 0 90px  #FF8C32;
 }
+
 /*First Section*/
 .left-side-intro {
   text-align: center;
