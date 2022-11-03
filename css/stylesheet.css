@@ -98,7 +98,7 @@ body{
   border-radius: 50%;
   border-style: solid;
   border-width: 20px;
-  border-color: rgba(255, 140, 50, 0.3);
+  border-color: rgba(255, 140, 50, 0.8);
   -webkit-box-shadow: 0 0 20px  #5dbafc;
           box-shadow: 0 0 20px  #5dbafc;
   }
