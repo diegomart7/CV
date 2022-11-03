@@ -23,6 +23,23 @@ body{
     color: #FF8C32 !important;
 }
 
+.viewwork:hover{
+
+  -webkit-box-shadow: 0 0 45px  #FF8C32;
+          box-shadow: 0 0 90px  #FF8C32;
+
+}
+
+.footer-icon:hover{
+  color: #5dbafc;
+}
+
+.nav-link:hover {
+
+    color:#5dbafc !important;
+
+}
+
 .dropdown-item{
     color: #FF8C32 !important;
     font-weight: bolder;
