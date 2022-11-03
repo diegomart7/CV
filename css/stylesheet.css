@@ -321,16 +321,14 @@ padding-right: 0;
 
 }
 
-
 .workshopimage {
 width: 450px;
 display: block;
 margin: 4% auto;
 border-radius: 13%;
-box-shadow: 10px 10px 5px #ccc;
-     -moz-box-shadow: 10px 10px 5px #ccc;
-     -webkit-box-shadow: 10px 10px 5px #ccc;
-     -khtml-box-shadow: 10px 10px 5px #ccc;
-
+-webkit-box-shadow: 0 0 25px  #FF8C32;
+        box-shadow: 0 0 70px  #FF8C32;
 }
+
+
 
