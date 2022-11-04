@@ -21,6 +21,7 @@ body{
   padding: 0 18px;
   font-weight: bolder;
     color: #FF8C32 !important;
+    'Orbitron', sans-serif;
 }
 
 .viewwork:hover{
@@ -31,7 +32,7 @@ body{
 }
 
 .footer-icon:hover{
-  color: #5dbafc;
+  color: white;
 }
 
 .nav-link:hover {
