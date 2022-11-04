@@ -110,6 +110,10 @@ body{
   margin: auto;
 }
 
+.hworkshop{
+    font-family: 'Orbitron', sans-serif;
+}
+
 .right-side-intro{
   padding: 3% 7%;
   text-align: center;
