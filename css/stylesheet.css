@@ -46,10 +46,6 @@ body{
     font-weight: bolder;
       font-family: "Ubuntu";
 }
-.dropdown-item:hover{
-    color:white !important;
-    background-color:grey;
-}
 
 .nav-link {
 
