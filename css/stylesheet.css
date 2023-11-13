@@ -23,15 +23,10 @@ body{
   font-weight: bold;
   color: #FF8C32;
 }
-
 .workshopimage:hover{
-
   -webkit-box-shadow: 0 0 25px  #5dbafc;
           box-shadow: 0 0 70px  #5dbafc;
-
 }
-
-
 
 /*First Section*/
 .left-side-intro {
@@ -39,16 +34,12 @@ body{
   display: block;
   margin: auto;
 }
-
 .hworkshop{
     font-family: 'Orbitron', sans-serif;
 }
-
 .right-side-intro{
   text-align: center;
-
 }
-
 .author-image {
   width: 380px;
   border-radius: 50%;
@@ -56,25 +47,18 @@ body{
   border-width: 14px;
   border-color: rgba(255, 140, 50, 1);
   }
-
 .title-headers{
   padding: 10%;
-
 }
-
 .headerTitlename{
-
   font-family: 'Orbitron', sans-serif;
   font-weight:bold;
   font-size: 5.5rem;
   text-align: left;
   color: #FF8C32;
   text-shadow: 5px 5px rgba(150, 150, 150, 0.6);
-
 }
-
 .headerTitleProfesion{
-
   font-family: "Montserrat";
   font-weight:bolder;
   font-size: 2.5rem;
@@ -82,14 +66,12 @@ body{
   color: #FF8C32;
   text-shadow: 4px 4px rgba(150, 150, 150, 0.6);
 }
-
 /*Sections*/
 .section1 {
   background-image: url("https://space.biz.pl/wp-content/uploads/2019/11/home-banner.jpg");
   background-size: cover;
   width: 100%;
 }
-
 .section2{
   background-color: black;
 }
@@ -98,26 +80,18 @@ body{
   width: 100%;
   color: #FF8C32;
 }
-
 .white-section {
   background-color: white;
   color: black;
 }
-
 .workexpsection1 {
   color: #DDDDDD;
   background-color: black;
 }
 /*Feautures Section2*/
- .section-top{
-   padding: 2%;
+ .section-top{ padding: 2%;}
 
- }
-
- .section-top{
-   width: 100%;
- }
-
+ .section-top{ width: 100%;}
 /*My Work page*/
 .imagecompany {
   width: 200px;
@@ -125,9 +99,7 @@ body{
   margin: 12% 35%;
 }
 
-.workexp {
-  width: 100%
-}
+.workexp {width: 100%}
 
 .workexptitle{
   font-size: 6rem;
@@ -139,20 +111,17 @@ body{
     font-family: 'Orbitron', sans-serif;
     font-weight: bolder;
 }
-
 .companyrole {
   color: #FF8C32 !important;
     font-family: "Montserrat";
   font-weight: bold;
 }
-
 .apppar{
 display: block;
 margin: 1% auto;
 width: 50%;
 font-size: 1rem;
 }
-
 #footer{
   padding: 1%;
    text-align: center;
@@ -160,20 +129,16 @@ font-size: 1rem;
    background-color:  #FF8C32;
    color: black;
 }
-
 .footer-icon{
   font-size: 2.3rem;
   margin-left: 2.5%;
   margin-right:2.55%;
   padding-bottom: 2%;
 }
-
 .workimage{
   width: 100%;
   padding: 10%;
-
 }
-
 .workshopimage {
 width: 450px;
 display: block;
@@ -182,7 +147,7 @@ border-radius: 13%;
 -webkit-box-shadow: 0 0 25px  #FF8C32;
         box-shadow: 0 0 70px  #FF8C32;
 }
-
+/*Carousel_CSS*/
 .carousel-section{
   background-color: black;
 }
