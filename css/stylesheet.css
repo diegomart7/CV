@@ -3,28 +3,6 @@ body{
     background-color: #06113C;
 }
 
-.navbar {
-  padding: 0 ;
-  background-color: black;
-}
-
-.navbar-brand {
-  font-family: 'Orbitron', sans-serif;
-  font-size: 2.5rem !important;
-  font-weight: normal;
-  color: #FF8C32 !important;
-  text-shadow: 0px 6px rgba(150, 150, 150, 0.2) !important;
-  padding-left: 5%;
-}
-
-.nav-item {
-  padding: 0 18px;
-  font-weight: bolder;
-    color: #FF8C32 !important;
-    'Orbitron', sans-serif;
-    font-size:1.5rem;
-}
-
 .viewwork:hover{
   border-color: #5dbafc;
   -webkit-box-shadow: 0 0 25px   #15f4ee;
@@ -34,31 +12,9 @@ body{
 
 .footer-icon:hover{
   color: white;
-}
-
-.nav-link:hover {
-
-    color: white !important;
-    text-shadow: 0px 1px 20px  #5dbafc !important;
 
 }
 
-.dropdown-item{
-    color: #FF8C32 !important;
-    font-weight: bolder;
-      font-family:'Orbitron', sans-serif;
-    font-size:1.5rem;
-}
-
-.nav-link {
-
-  font-weight: bolder;
-  font-family: 'Orbitron', sans-serif;
-  color: #FF8C32 !important;
-  text-shadow: 0px 6px rgba(150, 150, 150, 0.2) !important;
-  font-size: 1.5rem !important;
-
-}
 
 .hworkshop{
 
