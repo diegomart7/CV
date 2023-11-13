@@ -174,7 +174,6 @@ border-radius: 13%;
     border-radius: 50%;
     height: 140px;
   }
-
   .languages-row{
     padding-top: 35px;
     padding-top: 30px;
@@ -184,7 +183,6 @@ border-radius: 13%;
     margin-bottom: 20px;
     height: 29rem;
   }
-
   .icon-carousel{
     font-size: 5rem;
     color:#FF8C32;
@@ -194,12 +192,9 @@ border-radius: 13%;
     color:#DDDDDD;
     text-align:center;
   }
-
   .skill-box{
     text-align: center;
-
   }
-
   .icon-contact-carousel{
     font-size: 5em;
     padding: 10px;
@@ -212,6 +207,4 @@ border-radius: 13%;
     padding-right:10px ;
     background-color: inherit;
     color:#FF8C32;
-
   }
-
