@@ -109,15 +109,6 @@ body{
   background-color: black;
 }
 /*Feautures Section2*/
-.bluehr{
-color: #FF8C32;
-width: 7%;
-border-style: dotted;
-border-width: 10px;
-border-top-style: none;
-margin: auto;
-
-}
  .section-top{
    padding: 2%;
 
@@ -127,46 +118,6 @@ margin: auto;
    width: 100%;
  }
 
-.whitehr{
-color: #FF8C32;
-width: 7%;
-border-style: dotted;
-border-width: 10px;
-border-top-style: none;
-margin:auto;
-}
-
-.feature{
-  text-align: center;
-  padding: 5%;
-}
-.feature-icon{
-  font-size: 8rem;
-  padding: 3%;
-  color: #DDDDDD;
-}
-
-.feature-header{
-  padding: 2%;
-  font-family: "Montserrat";
-  font-weight:bolder;
-  color: #FF8C32;
-}
-
-.feature-p {
-width: 50%;
-margin: auto;
-font-family: "Montserrat";
-color: #DDDDDD;
-
-}
-
-.technology-description{
-  width: 75%;
-  margin: auto;
-  font-family: "Montserrat";
-  color: #DDDDDD;
-}
 /*My Work page*/
 .imagecompany {
   width: 200px;
@@ -202,51 +153,6 @@ width: 50%;
 font-size: 1rem;
 }
 
-.tasksside {
-
-  text-align: center;
-}
-.mylanguages {
-  text-align: center;
-  font-family: 'Orbitron', sans-serif;
-  font-weight: bolder;
-  color: #FF8C32;
-  font-size: 2.2rem;
-
-}
-
-.flag {
-  border-radius: 50%;
-  width: 100px;
-
-}
-
-
-.language-box{
-
-  color: white;
-  text-align: center;
-}
-
-.polish-language{
-
-padding-right: 0;
-}
-
-.mylanguages{
-
-  padding-top: 2%;
-}
-
-.languageh4{
-  color: #DDDDDD;
-  padding-top: 1%;
-  padding-bottom: 2%;
-  font-weight: bold;
-  font-size: 1.3rem;
-  font-family: 'Orbitron', sans-serif;
-}
-
 #footer{
   padding: 1%;
    text-align: center;
@@ -277,5 +183,91 @@ border-radius: 13%;
         box-shadow: 0 0 70px  #FF8C32;
 }
 
+.carousel-section{
+  background-color: black;
+}
+.feature-header{
+  
+  color: #DDDDDD
+}
+.language-box{
 
+    text-align: center;
+  }
+
+  .language{
+    padding-top: 1%;
+    padding-bottom: 2%;
+    font-size: 1.7rem;
+    color: #DDDDDD
+    
+  }
+.carousel-header{
+    font-size: 3rem;
+    padding-bottom: 30px;
+    color: #DDDDDD
+}
+
+.contact-link{
+  text-decoration: none;
+  color: inherit;
+}
+.contact-link:hover{
+  color: inherit;
+}
+.carousel-paragraph{
+  padding-bottom: 3rem;
+  font-size: 1.1em;
+  color:#DDDDDD;
+}
+  .flag {
+    border-radius: 50%;
+    height: 140px;
+
+  }
+
+  .languages-row{
+    padding-top: 35px;
+    padding-top: 30px;
+    
+  }
+
+  .carousel-item{
+    padding: 30px!important;
+    margin-bottom: 20px;
+    height: 29rem;
+
+  }
+
+  .icon-white{
+    font-size: 5rem;
+    color:#FF8C32;
+    padding:1rem;
+  
+  }
+
+  .contact-h3{
+    color:#DDDDDD;
+    text-align:center;
+  }
+
+  .skill-box{
+    text-align: center;
+
+  }
+
+  .icon-contact-carousel{
+    font-size: 5em;
+    padding: 10px;
+  }
+  .cv-button, .contact-button, .linkedin-button{
+    border-style: none;
+    padding-top: 6px;
+    padding-bottom:6px ;
+    padding-left:10px ;
+    padding-right:10px ;
+    background-color: inherit;
+    color:#FF8C32;
+
+  }
 
