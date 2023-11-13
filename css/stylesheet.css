@@ -1,23 +1,16 @@
-
 body{
     background-color: #06113C;
 }
-
 .viewwork:hover{
   border-color: #5dbafc;
   -webkit-box-shadow: 0 0 25px   #15f4ee;
           box-shadow: 0 0 50px   #15f4ee;
 
 }
-
 .footer-icon:hover{
   color: white;
-
 }
-
-
 .hworkshop{
-
   font-family: 'Orbitron', sans-serif;
   font-size: 2.5rem;
   font-weight: bold;
@@ -27,7 +20,6 @@ body{
   -webkit-box-shadow: 0 0 25px  #5dbafc;
           box-shadow: 0 0 70px  #5dbafc;
 }
-
 /*First Section*/
 .left-side-intro {
   text-align: center;
@@ -98,9 +90,7 @@ body{
   border-radius: 50%;
   margin: 12% 35%;
 }
-
 .workexp {width: 100%}
-
 .workexptitle{
   font-size: 6rem;
   padding: 3%;
@@ -152,27 +142,22 @@ border-radius: 13%;
   background-color: black;
 }
 .feature-header{
-  
   color: #DDDDDD
 }
 .language-box{
-
     text-align: center;
   }
-
   .language{
     padding-top: 1%;
     padding-bottom: 2%;
     font-size: 1.7rem;
     color: #DDDDDD
-    
   }
 .carousel-header{
     font-size: 3rem;
     padding-bottom: 30px;
     color: #DDDDDD
 }
-
 .contact-link{
   text-decoration: none;
   color: inherit;
@@ -188,29 +173,23 @@ border-radius: 13%;
   .flag {
     border-radius: 50%;
     height: 140px;
-
   }
 
   .languages-row{
     padding-top: 35px;
     padding-top: 30px;
-    
   }
-
   .carousel-item{
     padding: 30px!important;
     margin-bottom: 20px;
     height: 29rem;
-
   }
 
   .icon-carousel{
     font-size: 5rem;
     color:#FF8C32;
     padding:1rem;
-  
   }
-
   .contact-h3{
     color:#DDDDDD;
     text-align:center;
