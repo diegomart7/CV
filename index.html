@@ -1,172 +1,268 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Diego's Personal Space</title>
-  <!--CSS -->
-  <link rel="stylesheet" href="css/stylesheet.css">
-  <!--Favicon-->
-    <link rel="icon" href="favicon.ico">
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  <!-- Font Awesome -->
-  <script src="https://kit.fontawesome.com/58033850f9.js" crossorigin="anonymous"></script>
-  <!-- Google Fonts -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Orbitron:wght@400;700;900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diego Martinez - CV</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: url(https://www.toptal.com/designers/subtlepatterns/uploads/morocco-blue.png);
+      color: #333;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    #left-column {
+    
+      background-color: #feffff;
+      padding: 30px;
+      background: url(https://www.toptal.com/designers/subtlepatterns/uploads/morocco-blue.png);
+      flex-grow: 1;
+    }
+    #right-column{
+    flex-grow: 4;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+      max-width: 800px;
+      margin: 20px;
+      padding: 20px;
+      border-radius: 1rem;
+      background-color: rgba(248, 248, 248, 0.7);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 1rem;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+
+    h3 {
+      color: #555;
+    }
+
+    ul {
+
+      padding:  0px 30px;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-weight: 500;
+      line-height: 1.3;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #personal-info ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    #personal-info{
+      border-radius: 1rem;
+      background-color: rgba(248, 248, 248, 0.7);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
+    }
+
+    #personal-info li {
+      list-style: none;
+      margin-bottom: 10px;
+      font-weight: 400;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #profile-picture {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: #5fb7cc;
+      margin: 0 auto;
+      overflow: hidden;
+      border: solid 5px transparent;
+    }
+
+    .author__img{
+      width: 180px;
+      height: 180px;
+    }
+
+    .downloadCVcontainer{
+      text-align: center;
+      margin-top: 1.2rem;
+    }
+    .downloadCVbutton{
+
+      font-weight: bold;
+      color: #FFFF;
+      background-color: #e05454;
+      border-radius: 1rem;
+      border-style: none;
+      padding: 0.5rem;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+  .downloadCVbutton:hover {
+    background-color: #d77d7d;
+  }
+span{
+  font-weight: bolder!important;
+  font-family: Arial, Helvetica, sans-serif;
+}
+  
+  </style>
 </head>
 
-<body>
-    <!--Heading of the Page-->
-  <section class="section1">
-    <div class="section1 row ">
-      <div class="col-lg-6 left-side-intro">
-        <div class="title-headers">
-          <h1 class="headerTitlename">Diego Martinez</h1>
-          <h4 class="headerTitleProfesion"> Tech Writer & Front End Developer</h4>
-        </div>
-      </div>
-      <div class="col-lg-6 right-side-intro">
-        <img class="author-image" src="img\author.jpg" alt="">
-      </div>
-    </div>
-  </section>
-  
-<!--Carousel-->
-<section class="section carousel-section">
-<div id="carouselExample" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 0"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <h3 class="text-center carousel-header">Contact</h3>
-      <div class="row text-center">
-        <p class="carousel-paragraph">If you managed to read up to this section, take some time to have a look at my LinkedIn and send me an Email<br>or you can download my CV.</p>
-      </div>
-      <div class="row contact-h3">
-        <div class="col-sm-4">
-          <a target="_blank" class="contact-link" href="Diego-Martinez-CV.pdf" >
-          <button class=" text-center cv-button"><i class="fa-solid fa-download icon-contact-carousel"></i></button>
-          <h3>Download CV</h3>
-        </a>
-        </div>
-        <div class="col-sm-4 contact-h3">
-          <a target="_blank" class="contact-link" href="mailto:diegomart7@gmail.com?subject&message=message">
-          <button class="text-center contact-button"><i class="fa-regular fa-envelope icon-contact-carousel"></i></button>
-          <h3>Email me</h3>
-        </a>
-        </div>
-        <div class="col-sm-4 contact-h3">
-          <a  target="_blank" class="contact-link" href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba">
-          <button class="text-center linkedin-button"><i class="fa-brands fa-linkedin-in icon-contact-carousel"></i></button>
-          <h3>View LinkedIn</h3>
-        </a>
-          
-        </div>
-        
-      </div>
-    </div>
-    <div class="carousel-item">
-      <h3 class="text-center carousel-header">My Languages</h3>
-      <div class="row languages-row">
-        <div class="col-sm-4 language-box">
-        <h3 class="language">English</h3>
-        <img class="flag" src="https://cdn1.iconfinder.com/data/icons/international-circular-flags/512/uk_united_kingdom_britain_british_flag-512.png" alt="">
-      </div>
-      <div class= "col-sm-4 language-box">
-        <h3 class="language">Spanish</h3>
-        <img class="flag" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Spanish_Presidential_Flag.svg/600px-Spanish_Presidential_Flag.svg.png" alt="">
-          </div>
-          <div class="col-sm-4 language-box ">
-            <h3 class="language" >Polish</h3>
-            <img class="flag" src="https://cdn-icons-png.flaticon.com/512/299/299737.png?w=360" alt="">
-              </div>
-            </div>
-    </div>
+<body id="content">
+  <!-- Left Column (Header and Personal Info) -->
+  <div id="left-column">
+    <!-- Profile Picture Placeholder -->
+    
 
-    <div class="carousel-item ">
-      <h3 class="text-center carousel-header">My Skills</h3>
-      <div class="row">
-        <div class="col-sm-3 skill-box">
-        <i class="fa-brands fa-html5  icon-carousel"></i>
-          <h3 class="feature-header">HTML</h3>
-      </div>
-      <div class= "col-sm-3 skill-box">
-        <i class="fa-brands fa-css3-alt icon-carousel"></i>
-        <h3 class="feature-header">CSS</h3>
-      </div>
-      <div class="col-sm-3 skill-box">
-        <i class="fa-brands fa-js icon-carousel"></i>
-        <h3 class="feature-header">JavaScript</h3>
-      </div>
-      <div class="col-sm-3 skill-box">
-        <i class="fa-brands fa-bootstrap icon-carousel"></i>
-      <h3 class="feature-header">BootStrap</h3>
-          </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 skill-box">
-          <i class="fa-brands fa-php icon-carousel"></i>
-          <h3 class="feature-header">PHP</h3>
-      </div>
-      <div class= "col-sm-3 skill-box">
-        <i class="fa-solid fa-database icon-carousel"></i>
-      <h3 class="feature-header">SQL</h3>
-      </div>
-      <div class="col-sm-3 skill-box ">
-        <i class="fa-brands fa-react icon-carousel"></i>
-        <h3 class="feature-header">React</h3>
-      </div>
-      <div class="col-sm-3 skill-box ">
-        <i class="fa-brands fa-node-js icon-carousel"></i>
-        <h3 class="feature-header">nodeJS</h3>
-          </div>
-      </div>
+    <!-- Header -->
+    <header><div id="profile-picture">
+      <img src="https://media.licdn.com/dms/image/D4D03AQGOXusX3p0qNQ/profile-displayphoto-shrink_400_400/0/1670408509148?e=1710374400&v=beta&t=CbW6fQOM4dPRXmA2IpFSeqtgfM8RQW0KJxTOeacDN5Q" alt="" class="author__img">
+      <!-- Placeholder for Picture -->
     </div>
-    <div class="carousel-item text-center">
-      <h3 class="text-center carousel-header">About me</h3>
-      <p class="carousel-paragraph">Here's a bit about me, where I come from, and where I want to go.</p>
-      <br/>
-      <div class="row contact-h3">
-        <div class="col-sm-4">
-          <i class="fa-brands fa-confluence icon-carousel"></i>
-          <h3>Technical Writer</h3>
-        </div>
-        <div class="col-sm-4 contact-h3">
-          <i class="fa-solid fa-file-code icon-carousel"></i>
-          <h3>Front-end Developer</h3>
-        </div>
-        <div class="col-sm-4 contact-h3">
-          <i class="fa-solid fa-computer icon-carousel"></i>
-          <h3>IT Proficient</h3>
-        </div>
-      </div>
-    </div>
+      <h1>Diego Martinez</h1>
+      <p>QA Tester (Functional Testing)</p>
+    </header>
+
+    <!-- Personal Information Section -->
+    <section id="personal-info">
+      <h2>Contact</h2>
+      <ul>
+        <li><span>Email: </span>diegomart7@gmail.com</li>
+        <li><span>Phone: </span>+48 794350898</li>
+        <li><span>LinkedIn: </span><a href="linkedin.com/in/diego-martinez-lopez-85b54bba" target="_blank">linkedin.com/in/diego-martinez-lopez-85b54bba</a></li>
+        <li class="downloadCVcontainer"><a href="Diego-Martinez-CV.pdf"><button class="downloadCVbutton">Download CV</button></a></li>
+      </ul>
+    </section>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+
+  <!-- Right Column (Experience, Education, etc.) -->
+  <div id="right-column">
+
+  <!-- Experience Section -->
+  <section >
+    <h2>Experience</h2>
+
+    <article>
+      <h3>QA Tester (Functional Testing)</h3>
+      <p>Freelancer | Apr 2021 - Present (2 years 10 months)</p>
+      <ul>
+        <li>Conducting thorough functional testing of software applications, focusing on verifying adherence to specified requirements and user expectations.</li>
+        <li>Developing and executing comprehensive test cases, test scripts, and test plans, ensuring maximum coverage of critical functionalities.</li>
+        <li>Identifying, documenting, and reporting software defects, collaborating with development teams to facilitate timely resolution.</li>
+        <li>Participating in requirement analysis sessions to gain a deep understanding of application features and functionalities.</li>
+        <li>Collaborating with cross-functional teams to ensure seamless integration of new features and updates into existing software systems.</li>
+        <li>Contributing to improving testing processes and methodologies, promoting efficiency and effectiveness within the QA team.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Finance and Accounting Process Specialist</h3>
+      <p>Capgemini | Nov 2019 - Nov 2020 (1 year 1 month)</p>
+      <ul>
+        <li>Communicating with clients to discuss account statuses, charges, or discrepancies.</li>
+        <li>Establishing and maintaining a good relationship with clients at all levels.</li>
+        <li>Verifying and timely processing financial data through the different tools and systems.</li>
+        <li>Reconciling customer accounts (invoices).</li>
+        <li>Maintaining accurate and complete records, including ledgers, journals, invoices, and receipts.</li>
+        <li>Proactively sharing knowledge and best practices.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Marketing Specialist (Google Ads)</h3>
+      <p>Cognizant | Dec 2018 - Jun 2019 (7 months)</p>
+      <ul>
+        <li>Managing all aspects of Google Ad campaigns.</li>
+        <li>Creating and optimizing advertising campaigns and paid search landing pages.</li>
+        <li>Analyzing and optimizing ad campaigns to increase return on investment (ROI).</li>
+        <li>Using Google Ads to drive a variety of online marketing campaigns.</li>
+        <li>Analyzing and optimizing pay-per-click (PPC) campaigns to increase ROI.</li>
+        <li>Developing PPC strategies to increase online visibility.</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Web Content Reviewer</h3>
+      <p>Nov 2017 - Nov 2018 (1 year 1 month)</p>
+      <ul>
+        <li>Ensuring that all content is compliant with industry standards and best practices, such as HIPAA or FTC regulations.</li>
+        <li>Conducting research to identify potential sources of information for the content.</li>
+        <li>Reviewing the content to ensure that it is consistent with the company’s mission statement, brand identity, and voice.</li>
+        <li>Evaluating the appropriateness of images and other multimedia elements in the piece.</li>
+        <li>Suggesting changes to the content to make it more effective or appealing to readers.</li>
+        <li>Revising content to meet audience needs by adding or removing material.</li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- Education Section -->
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li>I.E.S. Mollet - NHC Automotive Engineering (CFGS Automoción), Technology - 2010-2012</li>
+      <li>I.E.S. Alba del Vallés - Bachillerato Cientifico-Técnico (A-Level, technologies and science) - 2008-2010</li>
+    </ul>
+  </section>
+
+  <!-- Certifications Section -->
+  <section>
+    <h2>Licenses & Certifications</h2>
+    <ul>
+      <li>JavaScript 2020 - Udemy</li>
+      <li>Python 3 Certified - Pentalog HR</li>
+      <li>Responsive Web Design - freeCodeCamp</li>
+      <li>Learning Confluence 2018 - LinkedIn</li>
+      <li>Learning Jira Software - LinkedIn</li>
+      <li>Google Ads Search Certification - Google (Issued Apr 2023 - Expires Apr 2024)</li>
+      <li>HTML Essential Training - LinkedIn</li>
+      <li>Vanilla JavaScript: Building on the Document Object Model (DOM) - LinkedIn</li>
+      <li>JavaScript: Ajax and Fetch - LinkedIn</li>
+      <li>Programming Foundations: Data Structures (2019) - LinkedIn</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section>
+    <h2>Skills</h2>
+    <p>JSON • Testing • SQL • Postman API • API Testing • Bootstrap (Framework) • Node.js • Express.js • Front-End Development • Application Programming Interfaces (API)</p>
+  </section>
 </div>
-</section>
-<!--Footer-->
-  <footer class="white-section" id="footer">
-    <a class= "text-dark" href = "https://github.com/diegomart7"><i class="fa-brands fa-github footer-icon footertext"></i></a>
-    <a class= "text-dark"href = "https://www.facebook.com/diego.skateboarding"><i class="fa-brands fa-facebook footer-icon footertext"></i></a>
-    <a class= "text-dark"href = "https://www.linkedin.com/in/diego-martinez-lopez-85b54bba"><i class="fa-brands fa-linkedin footer-icon footertext"></i></a>
-    <a class= "text-dark" href = "mailto:diegomart7@email.com"><i class="fa-solid fa-envelope footer-icon footertext"></i></a>
-    <h5 class="footertext">Thank you for visiting</h5>
-    <h6 class="footertext">Ⓒ Diego Martinez</h6>
-  </footer>
+
 </body>
+
 </html>
+
