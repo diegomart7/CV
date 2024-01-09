@@ -152,6 +152,12 @@ span{
   color: white;
   text-align: center;
 }
+
+.iconphone{
+  font-size: 1.2rem;
+  color: white;
+  text-align: center;
+}
 .iconlinkedin{
   font-size: 1.2rem;
   color: white;
@@ -167,11 +173,16 @@ span{
   padding: 0.5rem;
 }
 
-.iconmailcontainer:hover{
-  
-  background-color: #717171;
-  transition: all ease-in-out 0.35s;
+.iconphonecontainer{
+  position: fixed;
+  top: 9rem;
+  left: 0.5rem;
+  border: solid 2px white;
+  border-radius: 50%;
+  background-color:#4e4e4e;
+  padding: 0.5rem;
 }
+
 .iconlinkedincontainer{
   position: fixed;
   top: 6rem;
@@ -182,9 +193,10 @@ span{
   padding: 0.5rem;
 }
 
-.iconlinkedincontainer:hover{
- background-color: #717171;
- transition: all ease-in-out 0.35s;
+.iconmailcontainer:hover,.iconphonecontainer:hover,.iconlinkedincontainer:hover {
+  
+  background-color: #717171;
+  transition: all ease-in-out 0.35s;
 }
   </style>
 </head>
@@ -209,7 +221,7 @@ span{
       <h2>Contact</h2>
       <ul>
         <li><span>Email: </span><a href=mailto:“diegomart7@gmail.com”>diegomart7@gmail.com</a> <div class="iconmailcontainer"><a href=mailto:“diegomart7@gmail.com”><i class="fa-solid fa-envelope iconmail"></i></a></div></li>
-        <li><span>Phone: </span>+48 794350898</li>
+        <li><span>Phone: </span>+48 794350898 <div class="iconphonecontainer"><a href="tel:0048794350898"><i class="fa-solid fa-phone iconphone"></i></a></div></li>
         <li><span>LinkedIn: </span><a href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba/" target="_blank">linkedin.com/in/diego-martinez-lopez</a><div class="iconlinkedincontainer"><a href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba/" target="_blank"><i class="fa-brands fa-linkedin iconlinkedin"></i></a></div></li>
         <li class="downloadCVcontainer"><a href="Diego-Martinez-CV.pdf"><button class="downloadCVbutton">Download CV</button></a></li>
       </ul>
@@ -312,4 +324,3 @@ span{
 </body>
 
 </html>
-
