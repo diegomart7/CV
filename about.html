@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Styles -->
+    <script src="https://kit.fontawesome.com/58033850f9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylesreset.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <title>Diego's Portfolio</title>
+</head>
+
+<body>
+<!--Main layout-->
+<div class="layout">
+
+        <!--Left Bar author basic info-->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                <!--General info-->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/diego.jpg" class="user-info__image" alt="user image">
+                    </div>
+                    <h2 class="user-info__name">Diego Martinez</h2>
+                    <h4 class="user-info__job">Web Developer</h4>
+                </div>
+                <!--Navigation Menu-->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                             <a href="index.html" class="menu__link">
+                                <i class="fa-solid fa-house menu__icon"></i>
+                                <span class="menu__overlay">Home</span>
+                             </a>
+                        </li>
+                        
+                        <li class="menu__option">
+                            <a href="about.html" class="menu__link">
+                               <i class="fa-solid fa-user menu__icon"></i>
+                               <span class="menu__overlay">About me</span>
+                            </a>
+                       </li>
+
+                       <li class="menu__option">
+                            <a href="skills.html" class="menu__link">
+                                <i class="fa-solid fa-graduation-cap menu__icon"></i>
+                                <span class="menu__overlay">Skills</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link">
+                                <i class="fa-solid fa-briefcase menu__icon"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="fa-solid fa-book menu__icon"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contact.html" class="menu__link">
+                                <i class="fa-solid fa-envelope menu__icon"></i>
+                                <span class="menu__overlay">Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!--Social media links-->
+                <div  class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="https://www.linkedin.com/in/diego-martinez-lopez-85b54bba">
+                                <i class="fa-brands fa-linkedin social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="">
+                                <i class="fa-brands fa-github social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="">
+                                <i class="fa-solid fa-envelope social__icon"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="">
+                                <i class="fa-solid fa-phone social__icon"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--CV download button-->
+                <div class="user-info__buttons">
+                    <a href="" class="user-info__btn">CV Download</a>
+                </div>
+                <!--Footer-->
+                <footer class="user-info__footer">
+                    &copy; 2024 Diego Martinez
+                </footer>
+            </section>
+        </aside>
+        <main class="layout__content">
+            <section class="content__page content__about">
+                <header class="about__header">
+                    <h2 class="about__title">About <span class="title__color">me</span>!</h2>
+                </header>
+                <section class="about__personal-info">
+                    <article class="personal-info__bio">
+                        <p class="personal-info__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus atque fuga vitae commodi id voluptatibus incidunt magnam laborum voluptatum perspiciatis deserunt odio, vero, ullam minus illo consequatur adipisci repellat in?
+                        </p>
+                    </article>
+                    <div class="personal-info__data">
+                        <ul class="peronal-info__list">
+                            <li class="peronal-info__option">
+                                <span class="personal-info__title">Age:</span>
+                                <span class="personal-info__value">32</span>
+                            </li>
+                            <li class="peronal-info__option">
+                                <span class="personal-info__title">Country:</span>
+                                <span class="personal-info__value">Poland</span>
+                            </li>
+                            <li class="peronal-info__option">
+                                <span class="personal-info__title">E-mail:</span>
+                                <span class="personal-info__value">diegomart7@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="about__services">
+                    <header class="services__header">
+                        <h2 class="services__title">What I <span class="title__color">do</span>?</h2>
+                    </header>
+                    <div class="services__container">
+                        <article class="services_service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-computer service__icon"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Web Development</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus temporibus voluptatem, delectus ipsa ex beatae, unde consectetur voluptas dolorum incidunt. Eveniet repudiandae eos officiis reiciendis laudantium! Cupiditate, modi tenetur?</p>
+                            </div>
+                        </article>
+                        <article class="services_service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-book service__icon"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Technical Writing</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus temporibus voluptatem, delectus ipsa ex beatae, unde consectetur voluptas dolorum incidunt. Eveniet repudiandae eos officiis reiciendis laudantium! Cupiditate, modi tenetur?</p>
+                            </div>
+                        </article>
+                        <article class="services_service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-code service__icon"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Programming</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus temporibus voluptatem, delectus ipsa ex beatae, unde consectetur voluptas dolorum incidunt. Eveniet repudiandae eos officiis reiciendis laudantium! Cupiditate, modi tenetur?</p>
+                            </div>
+                        </article>
+                        <article class="services_service">
+                            <div class="service__icon">
+                                <i class="fa-solid fa-code service__icon"></i>
+                            </div>
+                            <div class="service__content">
+                                <h3 class="service__title">Software Testing</h3>
+                                <p class="service__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, natus temporibus voluptatem, delectus ipsa ex beatae, unde consectetur voluptas dolorum incidunt. Eveniet repudiandae eos officiis reiciendis laudantium! Cupiditate, modi tenetur?</p>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section class="about__testimonials">
+                    <header class="testimonials__header">
+                        <h2 class="testimonials__title">Testimonials</h2>
+                    </header>
+                    <div class="testimonials__container">
+                        <article class="testimonials__testimonial">
+                            <div class="testimonial__img-container">
+                                <img src="assets/img/testimonial_1.jpg"  class="testimonial__img" alt="client-picture">
+                            </div>
+                            <div class="testimonial__description">
+                                <p class="testimonial__text">Collaborating with Diego has been a pleasure. As a Front-End Developer, he excels in creating user-friendly interfaces that seamlessly meet our top bank's compliance standards. Diego's technical skills and creativity make him an asset to any project. I highly recommend Diego for his commitment to excellence in front-end development.</p>
+                            </div>
+                            <div class="testimonial__author">
+                                <div class="testimonial__autor-info">
+                                    <h3 class="author__name">Name of Autor</h3>
+                                    <h4 class= "author__company">Author Company</h4>
+                                </div>
+                            
+                            <div class="review__author-icon">
+                                <i class="review__icon fa-solid fa-quote-right"></i>
+                            </div>
+                            </div>
+                        </article>
+                        <article class="testimonials__testimonial">
+                            <div class="testimonial__img-container">
+                                <img src="assets/img/testimonial_2.jpg"  class="testimonial__img" alt="client-picture">
+                            </div>
+                            <div class="testimonial__description">
+                                <p class="testimonial__text">Diego's impact as a fellow Front-End Developer has been impressive. His knack for crafting user-friendly interfaces seamlessly aligns with our top bank's compliance standards. Diego's technical prowess and creative approach make him an invaluable asset to our projects. I enthusiastically recommend Diego for his unwavering commitment to excellence in front-end development.</p>
+                            </div>
+                            <div class="testimonial__author">
+                                <div class="testimonial__autor-info">
+                                    <h3 class="author__name">Name of Autor</h3>
+                                    <h4 class= "author__company">Author Company</h4>
+                                </div>
+                            
+                            <div class="review__author-icon">
+                                <i class="review__icon fa-solid fa-quote-right"></i>
+                            </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+                <section class="about__clients">
+                    <header class="clients__header">
+                        <h2 class="clients__title">Clients</h2>
+                    </header>
+                    <div class="clients__container">
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-1.png" class="clients__image" alt="client-one-image">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-2.png" class="clients__image" alt="client-one-image">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-3.png" class="clients__image" alt="client-one-image">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-4.png" class="clients__image" alt="client-one-image">
+                            </a>
+                        </article>
+                        <article class="clients__item">
+                            <a href="#" class="clients__link">
+                                <img src="assets/img/cliente-5.png" class="clients__image" alt="client-one-image">
+                            </a>
+                        </article>
+                    </div>
+
+                </div>
+                </section>
+            </section>
+        </main>
+
+</div>
+    
+<script src="assets/js/main.js"></script>
+</body>
+</html>
