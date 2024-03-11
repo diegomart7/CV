@@ -234,9 +234,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .user-info__footer{
-    position: absolute;
-    bottom: 2rem;
     font-size: 1rem;
+
 }
 
 .content__page{
@@ -262,7 +261,7 @@ h1, h2, h3, h4, h5 {
 
 /*About me*/
 
-.content__about, .content__resume{
+.content__about, .content__resume, .content__portfolio{
 
     background-color: var(--primary-color);
     min-height: 100%;
@@ -274,14 +273,14 @@ h1, h2, h3, h4, h5 {
     text-align: left;
 }
 
-.about__header, .reviews__header, .clients__header, .resume__header{
+.about__header, .reviews__header, .resume__header, .portfolio__header{
     margin-bottom: 1.7rem;
     display: inline-block
 }
 
 
 
-.about__title, .clients_title, .resume__title{
+.about__title, .resume__title, .portfolio__title{
     font-size: 3.2rem;
     position: relative;
 }
@@ -300,11 +299,8 @@ h1, h2, h3, h4, h5 {
     color: var(--second-color);
 }
 
-.about__clients{
- display:none;
-}
 .about__personal-info{
-    display:flex;
+    display: flex;
     flex-direction: row;
     margin-bottom: 3rem;
     width: 100%;
@@ -447,24 +443,7 @@ h1, h2, h3, h4, h5 {
     color: var(--second-color);
 }
 
-.about__clients{
-    width: 100%;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
-}
 
-.clients__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.clients__image{
-    width: 140px;
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
-    opacity: 0.75;
-}
 
 .resume__container{
     width: 100%;
@@ -634,4 +613,93 @@ h1, h2, h3, h4, h5 {
 
 .resume__subheader{
     margin-top: 4.5rem;
+}
+
+/*Portoflio*/
+
+.portfolio__navbar{
+margin-bottom: 3rem;
+
+}
+
+.portfolio__menu{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.portfolio__option{
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+
+.portfolio__link{
+    font-weight: 500;
+}
+.portfolio__link:hover{
+    color: var(--second-color);
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.45);
+}
+
+.portfolio__gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.portfolio__item{
+    flex-basis: 33%;
+    padding: 0.7rem;
+    position: relative;
+}
+
+.portfolio__container-image{
+    overflow: hidden;
+}
+
+.gallery__image{
+    transition: all 300ms ease-in-out;
+}
+
+.portfolio__item:hover .gallery__image{
+    transform: scale(1.2);
+}
+
+.gallery__title{
+    font-size: 1.6rem;
+    padding: 1.5rem 0;
+    font-weight: bold;
+}
+
+.gallery__icon{
+    opacity: 0;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: var(--primary-color);
+    color: var(--second-color);
+    transition: all 450ms ease-in-out;
+}
+
+.gallery__category{
+    opacity: 0;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    padding: 0.2rem 0.7rem;
+    font-size: 1.2rem;
+    background-color: var(--primary-color);
+    color: var(--color-text);
+    transition: all 450ms ease-in-out;
+}
+
+.portfolio__item:hover .gallery__category,
+.portfolio__item:hover .gallery__icon{
+    opacity: 1;
 }
